@@ -1,4 +1,5 @@
 const fs = require("fs");
+const _ = require("lodash");
 const inputUrl = process.argv[2];
 const outputUrl = process.argv[3];
 let data = readFile(inputUrl);
